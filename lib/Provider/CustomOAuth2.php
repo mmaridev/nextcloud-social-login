@@ -34,6 +34,11 @@ class CustomOAuth2 extends OAuth2
                 ?? null
             ;
         }
+        /** added from qbus */
+            if (!isset($response->identifier) && isset($response->preferred_username)) {
+                $response->identifier = $response->preferred_username;
+            }
+        /** stop added from qbus */
         if (!isset($response->displayName)) {
             $response->displayName = $response->username ?? null;
         }
