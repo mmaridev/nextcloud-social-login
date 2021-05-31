@@ -1,5 +1,5 @@
 {
-  "name": "nextcloud-social-login",
+  "name": "nextcloud-social-login-qbus",
   "description": "Make possible create users and login via Telegram, OAuth or OpenID",
   "scripts": {
     "build": "webpack --progress --hide-modules --config webpack.js",
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zorn-v/nextcloud-social-login.git"
+    "url": "git+https://github.com/mmaridev/nextcloud-social-login.git"
   },
   "author": "zorn-v",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zorn-v/nextcloud-social-login/issues"
+    "url": "https://github.com/mmarideb/nextcloud-social-login/issues"
   },
-  "homepage": "https://github.com/zorn-v/nextcloud-social-login#readme",
+  "homepage": "https://github.com/mmaridev/nextcloud-social-login#readme",
   "dependencies": {
     "@nextcloud/axios": "^1.6.0",
     "@nextcloud/dialogs": "^1.4.0",
